@@ -20,13 +20,13 @@ function generateBlogTitle() {
   for (var i=0; i < 50; i++) {
     var node=document.createElement("div");
     node.className='text';
-    node.innerHTML='静默虚空';
+    node.innerHTML='Violet_eve';
     root.appendChild(node);
   }
   document.getElementById("blogTitle").appendChild(root);
 
   var subTitle=document.createElement("h2");
-  subTitle.innerHTML='Talk is cheap, show me the code.';
+  subTitle.innerHTML='我们一日日度过的日常，实际上可能是接连不断的奇迹.';
   document.getElementById("blogTitle").appendChild(subTitle);
 }
 
